@@ -1,15 +1,50 @@
 <!DOCTYPE html>
 <html>
+
 	<head>
 		<meta charset="UTF-8">
-		<title>LangK的主页</title>
+		<title>LangK的主页（PC版）</title>
 		<link rel="stylesheet" href="../css/mui.css" />
 		<link rel="stylesheet" href="../css/pindex.css" />
+		<script type="text/javascript" src="../js/pindex.js" ></script>
+		
 	</head>
+
 	<body>
 		<div id="topbar">
-			<img src="../img/logo.png"   />
-			<h1>欢迎来到LangK的主页（PC版）</h1>
+			<div id="logo_div">
+				<img id="logo" src="../img/logo.png" onclick="gohome()"/>
+			</div>
+
+			<div id="navigation_div">
+
+				<ul>
+					<li>
+						博客
+					</li>
+					<li>
+						技术
+					</li>
+					<li>
+						交流
+					</li>
+					<li>
+						关于
+					</li>
+				</ul>
+
+			</div>
+
 		</div>
+
+		<div class="clear"></div>
+		
+		<div id="layout">
+			<iframe id="iframe" src="phome.html" frameborder="0" scrolling="auto"></iframe>
+			
+		</div>
+		
+
 	</body>
+
 </html>
