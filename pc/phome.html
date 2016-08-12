@@ -3,7 +3,6 @@
 	<head>
 		<meta charset="UTF-8">
 		<title></title>
-		<link rel="stylesheet" href="../css/mui.css" />
 		<link rel="stylesheet" href="../css/phome.css" />
 		<script type="text/javascript" src="../js/pindex.js" ></script>
 		
@@ -22,10 +21,9 @@
 			<div>
 			<img hidefocus="true" src="../img/logo.png" id="logo" ></img>
 			</div>
-			<div id="input_div" nowrap><nobr>
-				<input maxlength="20" type="text" id="input_content" ></input>
+			<div id="input_div">
+				<input onkeydown="searchJump(input_content)" maxlength="20" type="text" id="input_content" ></input>
 				<button id="doit" type="submit" onclick="search()">嗅一下 </button>
-			</nobr>
 			</div>
 		
 	</body>

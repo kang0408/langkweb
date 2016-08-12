@@ -26,7 +26,7 @@ function searchJump(next){
 //加载博客
 function blog(){
 	var iframe = document.getElementById('iframe').contentWindow;
-    iframe.location.href = "pblog.html"
+    iframe.location.href = "phome.html"
 }
 //加载技术
 function technology(){
