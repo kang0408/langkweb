@@ -1,0 +1,22 @@
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<link rel="stylesheet" href="../css/pdiscussion.css" />
+		<script type="text/javascript" src="../js/pdiscussion.js"></script>
+	</head>
+
+	<body>
+		<div id="layout">
+			<div id="content">
+				<h2>你有什么对我说的</h2>
+				<textarea id="input_content" maxlength="2000" type="text" onkeyup="changhint(input_content,input_hint,2000)" placeholder="尽情的表达吧(最多可输入2000字)" ></textarea>
+				<p id="input_hint">0/2000</p>
+			</div>
+			<br />
+			<button id="sub" onclick="sub()">提交</button>
+		</div>
+	</body>
+
+</html>
