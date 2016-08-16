@@ -10,7 +10,7 @@ html,body{
 
 
 #topbar{
-	z-index: 100;
+	z-index: ;
 	position: fixed;
 	top: 0px;
 	left: 0px;
@@ -90,4 +90,23 @@ html,body{
 iframe{
 	width: 100%;
 	height: 100%;
+}
+
+
+#warninglayout{
+	position: absolute;
+	margin-bottom: 20px;
+	margin-left: auto;
+	margin-right: auto;
+	width: 100%;
+	height: auto;
+	text-align: center;
+}
+
+#footer_warn{
+	color: #000000;
+}
+
+#footer_backup{
+	color: #000000;
 }
